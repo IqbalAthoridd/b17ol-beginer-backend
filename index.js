@@ -15,6 +15,11 @@ app.post("/data", async (req, res) => {
     console.log(data)
 })
 
+app.post("/profile", (req, res) => {
+    const data = req.body
+    res.send(data)
+})
+
 
 app.listen(3000, () => {
     console.log("app listening on port:3000")
