@@ -1,0 +1,25 @@
+{
+  "name": "b17ol-beginer-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IqbalAthoridd/b17ol-beginer-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IqbalAthoridd/b17ol-beginer-backend/issues"
+  },
+  "homepage": "https://github.com/IqbalAthoridd/b17ol-beginer-backend#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
