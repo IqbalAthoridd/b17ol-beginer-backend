@@ -62,8 +62,8 @@ app.put("/profile", (req, res) => {
 
     if (result.length != data.length) {
         res.send({
-            message: "error",
-            err: err.message
+            message: "data harus di isi semua",
+
         })
     } else {
         res.send(result)
